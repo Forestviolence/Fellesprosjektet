@@ -46,6 +46,10 @@ public class User {
 	public void setInbox(ArrayList<Message> inbox) {
 		this.inbox = inbox;
 	}
+	@Override
+	public String toString(){
+		return this.userName;
+	}
 	
 	
 }
